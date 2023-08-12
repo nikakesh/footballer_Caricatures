@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Handlee&family=Tektur&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    align-items: center;
+}
+
+.area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-color: cornflowerblue;
+    width: 300px;
+    height: 500px;
+    border: solid rgb(6, 29, 2);
+    cursor: pointer;
+}
+
+.newCard{
+    position: absolute;
+    width: 300px;
+    border: solid rgb(6, 29, 2);
+    left: 30%px;
+    top: 6%;
+    height: 500px;
+    background-color: white;
+}
+
+.card div p{
+    font-family: 'Tektur', cursive;
+    text-align: center;
+    cursor: pointer;
+}
+
+.inp{
+    text-align: center;
+    margin-top: 20px;
+    width: 300px;
+    height: 30px;
+    border: black solid 4px;
+}
